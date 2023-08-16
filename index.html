@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount JS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-4xl mt-10 mb-10 font-medium text-center uppercase text-gray-500">Pay to enrol this course</h1>
+    </header>
+    <main>
+        <div class="w-10/12 lg:w-1/4 bg-amber-900 rounded-lg py-8 px-6 mx-auto text-gray-300">
+            <div>
+                <div class="flex justify-between mb-4">
+                    <h3 class="text-2xl font-medium">Course Price</h3>
+                    <h4 class="text-2xl font-medium">$<span class="old-price">166.45</span></h4>
+                </div>
+                <div class="flex justify-between mb-4">
+                    <h3>Discount</h3>
+                    <h4>$<span>00</span></h4>
+                </div>
+            </div>
+            <div>
+                <div class="flex justify-between mb-4">
+                    <h2>You Pay:</h2>
+                    <h3>$<span>141.63</span></h3>
+                </div>
+                <div class="flex justify-between items-center">
+                    <input class="w-9/12 py-2 px-2 text-black flex-grow w-full" type="text" placeholder="Enter coupon">
+                    <button class="bg-sky-700 px-5 py-2 hover:bg-sky-800">Apply</button>
+                </div>
+                <div>You saved: $ <span>50</span></div>
+            </div>
+            <div>
+                <button class="bg-sky-700 px-5 py-2 rounded-xl w-[100%] mt-4 hover:bg-sky-800">Pay Now</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
